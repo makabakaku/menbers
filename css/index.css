@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+.baner{
+    width: 100%;
+    height: 50px;
+    background-color: #090723;
+}
+.baner h1{
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+ul{
+    margin-top: 100px;
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+}
+li{
+    width: 220px;
+    height: 220px;
+    list-style: none; 
+}
+.items{
+    cursor: pointer;
+    margin: auto auto;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.056), 0 6.7px 5.3px rgba(0, 0, 0, 0.081), 0 12.5px 10px rgba(0, 0, 0, 0.1), 0 22.3px 17.9px rgba(0, 0, 0, 0.119), 0 41.8px 33.4px rgba(0, 0, 0, 0.144), 0 100px 80px rgba(0, 0, 0, 0.2);
+}
+.one{
+    background-color: #330F6B;
+    transition: all 0.5s;
+}
+.one:hover{
+    transform: scale(1.1);
+    background-color: #334E8C;
+    transition: all 0.5s ;
+}
